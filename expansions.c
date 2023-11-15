@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * expand_variables - expand variables
+ * expande_variables - expand variables
  * @data: a pointer to a struct of the program's data
  *
  * Return: nothing, but sets errno.
  */
-void expand_variables(data_of_program *data)
+void expande_variables(data_of_program *data)
 {
 	int i, j;
 	char line[BUFFER_SIZE] = {0}, expansion[BUFFER_SIZE] = {'\0'}, *temp;
